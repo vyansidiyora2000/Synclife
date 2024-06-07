@@ -1,0 +1,5 @@
+.inactiveImg {
+  filter: grayscale(100%) brightness(70%) sepia(100%) saturate(0%);
+}
+
+

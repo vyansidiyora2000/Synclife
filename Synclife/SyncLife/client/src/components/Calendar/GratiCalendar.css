@@ -1,0 +1,51 @@
+.cal {
+  display: flex;
+  flex-direction: column;
+}
+
+.cal.weeks li {
+  color: #333;
+  font-size: 1.3rem;
+  font-weight: 500;
+  cursor: default;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cal .days li {
+  width: 55px;
+  height: 55px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #333;
+  font-size: 1.5rem;
+}
+
+.days li.inactive {
+  color: #aaa;
+}
+
+.activeeSelected
+{
+  
+  border-radius: 20%;
+  border: 3px solid black;
+  text-decoration: underline !important;
+}
+
+.activeeSelected:hover {
+  background-color: #807c7c;
+}
+
+.cal .days li p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  color: #000;
+}

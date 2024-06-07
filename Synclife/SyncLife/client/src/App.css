@@ -1,0 +1,134 @@
+.App {
+  text-align: center;
+}
+
+/*Navbar*/
+.backCustom {
+  background-color: #131521;
+}
+
+/*Home*/
+.cardBg {
+  background-color: #10121e;
+  transition: transform 0.3s ease-out;
+}
+.cardBg:hover {
+  /* transform: translateY(-20px); */
+  transform: scale(1.1);
+}
+/*habit page*/
+.break-all {
+  word-wrap: break-word;
+}
+.bgHabit {
+  background-color: #c3d7d9;
+}
+.bgHabitExpired {
+  background-color: #cdd3d8;
+}
+.bgHabitDetail {
+  background-color: #d5ddde;
+}
+
+.form-input {
+  background-color: #d5ddde;
+}
+.btn {
+  background-color: #d5ddde;
+}
+
+.btnH {
+  background-color: #8b989a;
+  color: black;
+  border: 1px solid white;
+}
+.btnH:hover {
+  background-color: #747f81;
+}
+.cardBG {
+  background-color: #e5ecee;
+}
+
+.no-scroll {
+  overflow-y: hidden;
+}
+
+/*journal*/
+.tableHead {
+  background-color: #374344;
+}
+.tbleBody {
+  background-color: #d8ddde;
+}
+
+/*userProfile*/
+
+.dataBg {
+  min-width: 400px;
+  max-width: 800px;
+  min-height: 200px;
+  max-height: 400px;
+}
+
+.MuiList-root
+{
+  padding: 0 !important;
+}
+.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root
+{
+  background-color: rgb(239, 234, 231)!important;
+ 
+}
+.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root:hover
+{
+  background-color: rgb(224, 217, 215)!important;
+}
+.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root.Mui-selected
+{
+  background-color: rgb(224, 217, 215)!important;
+}
+.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root
+{ 
+  margin-top: 5px !important;
+  margin-bottom: 5px !important;
+}
+
+/**file input */
+input[type="file"]::file-selector-button {
+  border-radius: 4px;
+  padding: 0 16px;
+  height: 40px;
+  cursor: pointer;
+  background-color: #cdd4d6;
+  border: 1px solid rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.05);
+  margin-right: 16px;
+  transition: background-color 200ms;
+}
+
+/* file upload button hover state */
+input[type="file"]::file-selector-button:hover {
+  background-color: #b0b8ba
+}
+
+#style-1::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #dad9d9;
+  padding: 10px;
+}
+
+#style-1::-webkit-scrollbar
+{
+	width: 7px;
+	background-color: inherit;
+}
+
+#style-1::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #7e7d7d;
+}
+
